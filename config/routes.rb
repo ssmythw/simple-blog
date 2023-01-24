@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
-  root "articles#index"
+  root "articles#i"
 
-  resources :articles do
+  resources :articles do #creates default pages for articles
     resources :comments
   end
 end
